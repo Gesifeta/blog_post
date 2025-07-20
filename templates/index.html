@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="/static/css/styles.css">
 </head>
 <body>
-<header class="header">
-</header>
+{% include 'header.html' %}
 <main class="main">
+
  <section class="posts">
      <h1>My Blog</h1>
      {% for post in posts %}
@@ -21,8 +21,6 @@
 
  </section>
 </main>
-<footer class="footer">
-  <h4>© {{ year }}. Made with <span style="color: red"> ❤</span>  in Shaggar.</h4>
-</footer>
+{% include 'footer.html' %}
 </body>
 </html>
