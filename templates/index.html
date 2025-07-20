@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology - the latest</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<header class="header">
+</header>
+<main class="main">
+ <section class="posts">
+     <h1>My Blog</h1>
+     {% for post in posts %}
+    <div class="post-blog">
+      <h2>{{ post['title'] }}</h2>
+        <h4>{{ post['summary'] }}</h4>
+        {% if len == 7: %}
+        <p>{{ post['content'] }}</p>
+        <a href="{{ url_for('index')}}">Back</a>
+        {% else %}
+        <a href="{{url_for('get_post',id=post['id'])}}">Read</a>
+        {% endif %}
+    </div>
+     {% endfor %}
+
+ </section>
+</main>
+<footer class="footer">
+  <h4>© {{ year }}. Made with <span style="color: red"> ❤</span>  in Shaggar.</h4>
+</footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of AI in Everyday Life",
+    "author": "Jane Doe",
+    "date": "2025-07-10",
+    "tags": ["AI", "Technology", "Future"],
+    "summary": "Exploring how artificial intelligence will shape our daily routines by 2030.",
+    "content": "Artificial intelligence is rapidly integrating into various facets of daily life, from personal assistants to autonomous vehicles. In this post, we explore its potential future impact."
+  },
+  {
+    "id": 2,
+    "title": "10 Tips for Remote Work Productivity",
+    "author": "John Smith",
+    "date": "2025-07-11",
+    "tags": ["Remote Work", "Productivity", "Work Life"],
+    "summary": "Practical advice for staying productive while working from home.",
+    "content": "Working remotely has become the norm for many. Here are 10 actionable tips to maintain productivity and balance."
+  },
+  {
+    "id": 3,
+    "title": "Why Your Startup Needs a Strong Brand Identity",
+    "author": "Laura Kim",
+    "date": "2025-07-08",
+    "tags": ["Branding", "Startups", "Marketing"],
+    "summary": "Learn how to build a memorable and effective brand from day one.",
+    "content": "A strong brand sets the foundation for growth and customer loyalty. Here’s how startups can build one from the ground up."
+  },
+  {
+    "id": 4,
+    "title": "Understanding the Basics of Blockchain",
+    "author": "Ali Hassan",
+    "date": "2025-07-09",
+    "tags": ["Blockchain", "Cryptocurrency", "Technology"],
+    "summary": "A beginner-friendly introduction to how blockchain works.",
+    "content": "Blockchain is more than just cryptocurrency. It’s a revolutionary technology with far-reaching applications. Here’s a beginner’s guide."
+  },
+  {
+    "id": 5,
+    "title": "A Guide to Minimalist Living",
+    "author": "Emily Chan",
+    "date": "2025-07-07",
+    "tags": ["Minimalism", "Lifestyle", "Wellness"],
+    "summary": "How simplifying your life can bring more peace and clarity.",
+    "content": "Minimalist living isn’t about having less—it’s about making room for more of what matters. Here’s how to start."
+  },
+  {
+    "id": 6,
+    "title": "The Best Front-End Frameworks in 2025",
+    "author": "Mike Torres",
+    "date": "2025-07-15",
+    "tags": ["Web Development", "JavaScript", "Frameworks"],
+    "summary": "A comparison of the most popular front-end frameworks for modern developers.",
+    "content": "From React to Svelte, we break down the top front-end frameworks developers are using in 2025."
+  },
+  {
+    "id": 7,
+    "title": "What is Digital Detox and Why You Need One",
+    "author": "Sara Bloom",
+    "date": "2025-07-12",
+    "tags": ["Mental Health", "Digital Life", "Wellness"],
+    "summary": "Disconnecting to reconnect: the benefits of taking a break from screens.",
+    "content": "Constant connectivity can lead to burnout. Discover how a digital detox can improve your mental clarity and well-being."
+  },
+  {
+    "id": 8,
+    "title": "Top 5 Sustainable Travel Tips",
+    "author": "David Green",
+    "date": "2025-07-13",
+    "tags": ["Travel", "Sustainability", "Eco-Friendly"],
+    "summary": "Travel responsibly with these eco-conscious travel hacks.",
+    "content": "From packing light to supporting local communities, here are five ways to travel more sustainably."
+  },
+  {
+    "id": 9,
+    "title": "Mastering Time Management in College",
+    "author": "Jessica Wu",
+    "date": "2025-07-14",
+    "tags": ["Education", "Time Management", "Students"],
+    "summary": "Smart time management strategies for student success.",
+    "content": "Balancing coursework, social life, and sleep is tough. These time management tips can help students thrive."
+  },
+  {
+    "id": 10,
+    "title": "The Rise of Indie Game Developers",
+    "author": "Mark Rivera",
+    "date": "2025-07-16",
+    "tags": ["Gaming", "Indie", "Development"],
+    "summary": "How small teams are reshaping the video game industry.",
+    "content": "Indie developers are making a big impact with unique and innovative games. Here's how the indie scene is thriving in 2025."
+  }
+]

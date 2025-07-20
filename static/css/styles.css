@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+    background-color: cornflowerblue;
+    min-height: 100px;
+}
+.blog-title{
+    background-color: lightskyblue;
+    padding: 2rem 0 2rem 10rem;
+    width: 100%;
+}
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    min-height: 100vh;
+    margin-bottom: 4rem;
+}
+.posts {
+    width: 60%;
+    margin: auto;
+    margin-top: -8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.post-blog{
+    background-color: #ffffff;
+  padding: 1rem 2rem;
+    border-radius: 8px;
+}
+.post-blog h2{
+    color: dodgerblue;
+}
+section h1{
+    color: #ffffff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
