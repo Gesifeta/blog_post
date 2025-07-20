@@ -5,10 +5,17 @@ body{
 }
 header{
     display: flex;
-    justify-content: center;
-    padding: 2rem 0 0 0;
+    justify-content: space-between;
+    padding: 2rem 4rem;
     background-color: cornflowerblue;
     min-height: 100px;
+}
+header nav{
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+
 }
 .blog-title{
     background-color: lightskyblue;
@@ -27,7 +34,6 @@ main{
 .posts {
     width: 60%;
     margin: auto;
-    margin-top: -8rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;

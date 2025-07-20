@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
 </head>
 <body>
  <header class="header">
+
+     <span >BlogPost</span>
+     <nav class="nav">
+       <a class="nav__item" href='{{ url_for("index") }}'>Home</a>
+       <a href="{{ url_for('index') }}">About</a>
+       <a href="{{ url_for('contact') }}">Contact</a>
+       <a href="{{ url_for('sample_blog_posts') }}">Blog</a>
+     </nav>
 </header>
 </body>
 </html>

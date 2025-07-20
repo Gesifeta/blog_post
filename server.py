@@ -15,5 +15,18 @@ def get_post(id):
     return render_template("post.html",posts=[post],id=id, len = len(post),year=year)
 
 
+@app.route("/about")
+def about():
+    return "About"
+
+@app.route("/contact")
+def contact():
+    return "Contact"
+
+@app.route("/posts")
+def sample_blog_posts():
+    return "Sample Posts"
+
+
 if __name__ == '__main__':
     app.run(debug=True)
