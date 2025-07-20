@@ -12,7 +12,7 @@ def index():
 @app.route('/post/<int:id>')
 def get_post(id):
     post = posts[id]
-    return render_template("index.html",posts=[post],id=id, len = len(post),year=year)
+    return render_template("post.html",posts=[post],id=id, len = len(post),year=year)
 
 
 if __name__ == '__main__':
