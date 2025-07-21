@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/styles.css">
     <title>Success</title>
 </head>
 <body>
+    <div class="message-success">
 <h1>Success</h1>
-<h2>First name: {{data["firstname"]}}</h2>
-<h2>Last name: {{data["lastname"]}}</h2>
-<h2>Email: {{data["email"]}}</h2>
-</body>
+<p>{{data["firstname"].upper()}}, thank you for your message. We have received you message and would shortly get in touch at 
+    your email {{data["email"]}} </p>
+</div>
+</body> 
 </html>

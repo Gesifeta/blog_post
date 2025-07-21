@@ -18,6 +18,9 @@ header{
     gap:3rem;
     min-height: 400px;
 }
+p{
+    line-height: 1.5;
+}
 header nav{
     color: #ffffff;
     display: flex;
@@ -109,6 +112,21 @@ form{
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+.message-success{
+    display: flex;
+    border-radius: 12px;
+    padding: 2rem 1rem;
+    margin: auto;
+    margin-top: 3rem;
+    width: 50%;
+    flex-direction: column;
+    background-color: #EEEEEE;
+}
+.message-success h1{
+    text-align: center;
+    color: green;
+    font-size: 3rem;
 }
 
 footer{

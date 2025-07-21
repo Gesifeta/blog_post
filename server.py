@@ -1,6 +1,8 @@
 from sys import exception
 from flask import Flask, render_template, request
+from markupsafe import Markup
 from  api import GMAIL_PASSWORD,GMAIL_USERNAME
+
 
 import smtplib,os
 import json
@@ -29,7 +31,7 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route("/login",methods=["POST","GET"])
+@app.route("/login", methods=["POST","GET"]) # type: ignore
 def login():
     if request.method == "POST":
         if request.form["email"] != "":
@@ -37,13 +39,17 @@ def login():
                 with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
                     connection.starttls()
                     connection.login(user=GMAIL_USERNAME,password= GMAIL_PASSWORD)
+                    data = {
+                    "firstname":request.form["firstname"],
+                    "lastname":request.form["lastname"],
+                    "email":request.form["email"]
+                }
+                    connection.sendmail(from_addr=GMAIL_USERNAME, to_addrs=GMAIL_USERNAME,
+                    msg=f"Subject:Blog Post\n\n{request.form['message']}")
             except Exception as e:
                     return f"Login Failed: {e}"
             else:
-                connection.sendmail(from_addr=GMAIL_USERNAME, to_addrs="adamgemechu@outlook.com",
-                    msg=f"Subject:Blog Post\n\n{request.form['message']}")
-                connection.quit()
-
+                return render_template("success.html",data =data)
     else:
         return render_template("contact.html")
 
