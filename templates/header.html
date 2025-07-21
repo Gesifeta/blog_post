@@ -5,15 +5,20 @@
     <title>Title</title>
 </head>
 <body>
- <header class="header">
-
-     <span >BlogPost</span>
+ <header>
      <nav class="nav">
+         <span >BlogPost</span>
+         <div class ="nav-items-wrapper">
        <a class="nav__item" href='{{ url_for("index") }}'>Home</a>
-       <a href="{{ url_for('index') }}">About</a>
+       <a href="{{ url_for('about') }}">About</a>
        <a href="{{ url_for('contact') }}">Contact</a>
        <a href="{{ url_for('sample_blog_posts') }}">Blog</a>
+     </div>
      </nav>
+     <div class="heading">
+         <h1>Gemechu's Blog</h1>
+         <p>Brought to you by oromia.dev</p>
+     </div>
 </header>
 </body>
 </html>
